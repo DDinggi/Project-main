@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.carousel {
+  padding: 70px 100px;
+  background-color: #bdbdbd;
+  color: #fff;
+  height: 80vh;
+  width: 100vw;
+}
+
+.carousel-list {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+}
+
+.carousel h2 {
+  padding: 0 20px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bolder;
+  max-width: 1200px;
+}
+
+.box {
+  width: 170px;
+  background-color: rgb(61, 61, 61);
+  height: 470px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding: 30px;
+}
+
+.event-info {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.event-info h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.event-info p {
+  font-size: 14px;
+}
+
+.box img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.list-container {
+  background-color: #bdbdbd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+.list-container h2 {
+  margin: 40px;
+  font-size: 35px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.list {
+  width: 75rem;
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 40px;
+}
+
+/* concertinfo */
+
+.card {
+  width: 250px;
+  background-color: rgb(104, 104, 104);
+  color: #fff;
+  height: 500px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  overflow: hidden;
+  padding: 30px;
+}
+
+.card h3 {
+  padding: 6px;
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+.card-button button {
+  border: none;
+  background-color: #fff;
+  color: #000;
+  border-radius: 3px;
+  padding: 3px 5px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.slick-slide div {
+  margin: 0 1rem;
+}

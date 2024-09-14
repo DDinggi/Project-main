@@ -1,0 +1,50 @@
+.post-table-container {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.post-table {
+  padding: 5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 12px;
+  border: none;
+  text-align: center;
+}
+
+th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+  width: 250px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.write-btn {
+  text-align: right;
+}

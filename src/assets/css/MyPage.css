@@ -1,0 +1,75 @@
+/* -------------위는 수정중--------------------------- */
+
+/* '마이페이지' 텍스트 */
+.title {
+  font-size: 3rem;
+  margin-bottom: 70px;
+  margin-top: 50px;
+  margin-left: 450px;
+}
+
+/* 프로필 컨테이너 */
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 원형 프로필 이미지 */
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+/* 기본 프로필 이미지 */
+.default-profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+/* 사용자 정보 컨테이너 */
+.info-container {
+  background-color: #f0f0f0;
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 30px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-container p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 5px 0;
+}
+
+.info-container button {
+  display: block;
+  width: auto;
+  padding: 10px;
+  margin-top: 10px;
+  background: none;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  color: black;
+}
+
+.info-container button:hover {
+  text-decoration: underline;
+}
